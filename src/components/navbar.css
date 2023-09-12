@@ -34,3 +34,13 @@
 .gigo-logo{
     width: 120px;
 }
+.mylink{
+    color: white;
+}
+.mylink:hover{
+    color: red;
+}
+.active{
+    color: red;
+    font-weight: 800px;
+}

@@ -44,27 +44,27 @@ function NavBar() {
             <Nav className="ml-auto" defaultActiveKey="#home">
 
                 <Nav.Item className="setup">
-                <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)} className='text-light'>
-                    Home
-                </Nav.Link>
+                  <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+                      <div className='mylink'>Home</div>
+                  </Nav.Link>
                 </Nav.Item>
 
                 <Nav.Item className="setup">
-                <Nav.Link as={Link} to="/about" onClick={() => updateExpanded(false)} className='text-light'>
-                    About Us
-                </Nav.Link>
+                  <Nav.Link as={Link} to="/about" onClick={() => updateExpanded(false)}>
+                    <div className='mylink'>About Us</div>
+                  </Nav.Link>
                 </Nav.Item>
 
                 <Nav.Item className="setup">
-                <Nav.Link as={Link} to="/products" onClick={() => updateExpanded(false)} className='text-light'>
-                    Products & Services
-                </Nav.Link>
+                  <Nav.Link as={Link} to="/products" onClick={() => updateExpanded(false)}>
+                    <div className='mylink'>Products & Services</div>
+                  </Nav.Link>
                 </Nav.Item>
 
                 <Nav.Item className="setup">
-                <Nav.Link as={Link} to="/contacts" onClick={() => updateExpanded(false)} className='text-light'>
-                    Contacts
-                </Nav.Link>
+                  <Nav.Link as={Link} to="/contacts" onClick={() => updateExpanded(false)}>
+                    <div className='mylink'>Contact Us</div>
+                  </Nav.Link>
                 </Nav.Item>
             </Nav>
             </Navbar.Collapse>

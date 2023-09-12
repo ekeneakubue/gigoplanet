@@ -8,3 +8,157 @@
 .home-left p{
     font-size: 19px;
 }
+.home-right{
+    padding: 1.5rem 0rem;
+}
+.sec1{
+    margin: 4rem 0rem;
+    padding: 3rem 7rem;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(219, 216, 216);
+    font-family: 'Rajdhani', sans-serif;
+}
+.sec1 div{
+    font-size: 18px;
+    color: rgb(57, 56, 56);
+    font-family: 'Rajdhani', sans-serif;
+}
+.top-header{
+    font-size: 20px;
+    font-weight: 800px;
+    padding: 0.5rem 0.5rem;
+    border-left: 8px solid red;
+    margin-top: 3rem;
+    margin-bottom: 1.2rem;    
+}
+.s-card{    
+    margin-bottom: 1.5rem;
+    padding-top: 2rem;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.s-card:hover{
+    padding-top: 2rem;
+    padding: 0px;
+    border-radius: 10px;    
+    transition: 2s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.s-card hr{
+    width: 0%;
+    height: 4px; 
+}
+.s-card:hover hr{    
+    width: 96%;
+    transition: 1s;
+    background-color: red;
+}
+.title i{
+    transition: 1s;
+    font-size: 60px;
+    color: rgb(201, 193, 193);    
+    text-align: center;
+}
+.s-card:hover i{
+    width: 96%;
+    color: red;
+}
+.s-card .title{
+    text-align: center;
+    font-weight: 800;
+    font-size: larger;
+}
+.s-card .body{
+    padding: 1rem 2rem;
+}
+.title div{
+    margin-bottom: 1rem;
+}
+.s-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.s-btn button{
+    width: 150px;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.s-btn button:hover{
+    width: 150px;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}
+
+.s-partners{
+    margin: 6rem 0rem;
+    padding: 2rem 0rem;
+    background-color: rgb(248, 248, 248);
+}
+.product-card{
+    margin-bottom: 1.5rem;
+    text-align: center;
+    background-color: white;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.logo img{
+    width: 100px;
+    border-radius: 20px;
+}
+.logo i{
+    width: 100px;
+    font-size: 66px;
+}
+
+.partner-card{
+    margin-bottom: 1.5rem;
+    text-align: center;
+    background-color: white;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+
+}
+.partner-card img{
+    width: 40px;
+    margin-right: 0.5rem;
+}
+
+
+
+
+
+
+@media screen and (max-width: 667px) {
+    .sec1{
+        margin: 4rem 0rem;
+        padding: 3rem 1rem;
+        font-size: 30px;
+        text-align: center;
+        background-color: rgb(219, 216, 216);
+        font-family: 'Rajdhani', sans-serif;
+    }
+    .home{
+        padding: 4rem 0rem;
+    }
+    .home-left h1{
+        padding: 1rem 0rem;
+        text-align: center;
+        font-size: 25px;
+    }
+    .home-left p{
+        font-size: 19px;
+    }
+    .myrow{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
