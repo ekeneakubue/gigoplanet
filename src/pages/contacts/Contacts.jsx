@@ -1,18 +1,25 @@
 import './contacts.css'
-import React from 'react'
+import React, {useEffect} from 'react';
+// import aos
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 export default function Contacts() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <div className='main'>
       <div className="container">
         <div className="row">
-          <div className="banner">
+          <div className="banner" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
             <img src="images/contact-banner.jpg" alt="banner" />
           </div>
         </div>
         <div className="row">
           <div className="col-md-9">
-            <div className="c-left">
+            <div className="c-left" data-aos="fade-right" data-aos-duration="3000">
               <form>
                 <div class="form-group">
                   <label for="exampleInputName">Name<span className='text-danger steris'>*</span></label>
@@ -34,7 +41,7 @@ export default function Contacts() {
             </div>
           </div>
           <div className="col-md-3">
-            <div className="c-right">
+            <div className="c-right" data-aos="fade-left" data-aos-duration="3000">
               <h5>Our Contacts</h5>
               <div className='c-aside'>
                 <i class="bi bi-geo-alt text-danger"></i>

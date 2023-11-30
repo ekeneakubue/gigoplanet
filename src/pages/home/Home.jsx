@@ -1,15 +1,20 @@
+import React, {useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import './home.css';
-
+// import aos
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Home() {
-  
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <div className='home'>
       <div className="container">
         <div className="row myrow">
           <div className="col-md-5">
-            <div className="home-left">
+            <div className="home-left" data-aos="fade-right" data-aos-duration="3000">
               <h1>Transforming your business with our Technology Solutions</h1>
               <p>We are a Multi-Competency, Enterprise Transformation & Technology Consulting Firm. We combine expertise and capabilities across many industries and business functions to deliver superior value to our clients.</p>
               
@@ -18,7 +23,7 @@ export default function Home() {
             </div>
           </div>
           <div className="col-md-7">
-            <div className="home-right">
+            <div className="home-right" data-aos="fade-left" data-aos-duration="3000">
               <img src="images/img1.png" alt="img1"  className='img-fluid'/>
             </div>
           </div>
@@ -33,8 +38,8 @@ export default function Home() {
           <div>Ekene Akubue, CEO Gigoplanet Group</div>
         </div>
       </section>
-      <div className="container">
-        <div className="top-header">Our Services</div>
+      <div className="container" data-aos="fade-up" data-aos-duration="1000">
+        <div className="top-header" >Our Services</div>
         <div className="row">          
           <div className="col-md-4">
             <div className="s-card">              
@@ -79,7 +84,7 @@ export default function Home() {
       </div>
 
       <section className="s-partners">
-        <div className="container">
+        <div className="container" data-aos="fade-up" data-aos-duration="1000">
           <div className="top-header">Our Products & Services</div>
           <div className="row">            
 
@@ -143,7 +148,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="container">
+      <div className="container" data-aos="fade-left" data-aos-duration="500">
         <div className="top-header">Our Partners</div>
         <div className="row">                  
           <div className="col-md-4"> 
@@ -164,7 +169,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="container">
+      <div className="container" data-aos="flip-right" data-aos-duration="500">
         <div className="top-header">Our Clients</div>
           <div className="row">
             <div className="col-md-3"> 

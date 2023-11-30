@@ -1,0 +1,134 @@
+.services-header{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0rem 0.5rem;
+    border-left: 8px solid red;
+    margin-top: 10rem;
+    margin-bottom: 3rem;   
+    margin-bottom: -2px; 
+}
+.services-header span{
+    color: red;
+}
+.s-card{    
+    margin-bottom: 1.5rem;
+    padding-top: 2rem;
+    padding: 0px;
+    border-radius: 10px;
+    min-height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.s-card:hover{
+    padding-top: 2rem;
+    padding: 0px;
+    border-radius: 10px;    
+    transition: 2s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.s-card hr{
+    width: 0%;
+    height: 4px; 
+}
+.s-card:hover hr{    
+    width: 96%;
+    transition: 1s;
+    background-color: red;
+}
+.title i{
+    transition: 1s;
+    font-size: 60px;
+    color: rgb(201, 193, 193);    
+    text-align: center;
+}
+.s-card:hover i{
+    width: 96%;
+    color: red;
+}
+.s-card .title{
+    text-align: center;
+    font-weight: 800;
+    font-size: larger;
+}
+.s-card .body{
+    padding: 1rem 2rem;
+}
+.title div{
+    margin-bottom: 1rem;
+}
+.s-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+
+.s-partners{
+    margin: 6rem 0rem;
+    padding: 2rem 0rem;
+    background-color: rgb(248, 248, 248);
+}
+.product-card{
+    margin-bottom: 1.5rem;
+    text-align: center;
+    background-color: white;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.products-header{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0rem 0.5rem;
+    border-left: 8px solid red;
+    margin-top: 4rem;
+    margin-bottom: 3rem;  
+    margin-bottom: -2px;  
+}
+.products-header span{
+    color: red;
+}
+.pro-txt{
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+    font-family: 'Barlow', sans-serif;
+}
+.p-card{    
+    margin-bottom: 1.5rem;
+    padding-top: 2rem;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.p-card .body{
+    padding: 1rem 2rem;
+}
+.p-card .title{
+    text-align: left;
+    padding: 0.5rem 2rem;
+    font-weight: 800;
+    font-size: larger;
+}
+.oem{
+    padding: 1rem 0rem ;
+    margin-top: 4rem;
+    background-color: rgb(234, 231, 231);
+}
+.oem-card{    
+    margin-bottom: 1.5rem;
+    padding-top: 2rem;
+    background-color: white;
+    padding: 0px;
+    border-radius: 10px;
+    min-height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.oem-card .body{
+    padding: 0rem 2rem;
+}
+.oem-card .title{
+    text-align: left;
+    padding: 0.5rem 2rem;
+    font-weight: 800;
+    font-size: larger;
+}
