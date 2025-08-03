@@ -1,0 +1,70 @@
+.about_container{
+    padding: 1rem 6rem;
+    background-color: #eeecec;
+}
+.about_container img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.about{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+.about > .title{
+    color: var(--text-red);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.about p{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto; 
+    line-height: 2rem;
+    font-size: 18px;   
+    letter-spacing: 1px;
+}
+.vision_mission{
+    display: grid;
+    gap: 2rem;
+    margin: 3rem 0rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+.vision_mission .title{
+    border-left: 6px solid var(--text-red);
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+.vision{
+    border: 1px solid #d4d3d3;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.mission{
+    border: 1px solid #d4d3d3;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+@media(max-width:667px){
+    .about_container{
+        padding: 1rem;
+    }
+    .about > .title{
+        font-size: 20px;
+    }
+    .vision_mission{
+        margin: 3rem 0rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .vision, .mission{
+        padding: 1rem;
+    }
+    .about p{
+        font-size: 12px;
+    }
+}

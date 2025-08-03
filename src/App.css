@@ -1,0 +1,20 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+a{
+  text-decoration: none;
+}
+:root{
+  --bg-light: #ebeaea;
+  --text-blue: #39393c;
+  --text-blue-transparent: #c4c4c6;
+  --text-red: #fd1212;
+  --text-white: #fff;
+  --text-light: #d2d0d0;
+}
+
+
+

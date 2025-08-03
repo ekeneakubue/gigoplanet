@@ -1,0 +1,66 @@
+.footer{
+    background-color: #2b2b2b;   
+}
+.footer_container{
+    color: #fff;
+    padding: 4rem 6rem 2rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+.myhr{
+    width: 90%;
+    margin: 0rem auto;
+    border: 1px solid #7f7e7e;
+    
+}
+.foot_brand{
+    display: flex;
+    gap: 1rem;
+    font-size: 30px;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.foot_brand img{
+    width: 50px;
+}
+.foot_brand span{
+    color: red;
+}
+.foot_col p{
+    margin: 1rem 0;
+    color: #868585;
+}
+.foot_col p span{
+    color: #f70909;
+}
+.foot_col input{
+    width: 90%;
+    height: 2.5rem;
+}
+.foot_col .title{
+    margin-bottom: 2rem;
+}
+.sub_btn{
+    border: 1px solid ;
+    width: 30%;
+    margin: 1rem 0rem;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 5px;
+}
+.footer2{
+    text-align: center;
+    color: #999797;
+    padding: 0.5rem;
+    font-size: 12px;
+}
+
+
+@media(max-width:667px){
+    .footer_container{
+        padding: 4rem 2rem 2rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
