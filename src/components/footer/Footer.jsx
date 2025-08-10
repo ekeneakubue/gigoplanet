@@ -26,8 +26,8 @@ export default function Footer() {
             <div className={style.title}>Company</div>
             <Link to = '/about'><p>About us</p></Link>
             <Link to = '/products'><p>Products & Services</p></Link>
-            <Link to = '#'><p>GigoSchool</p></Link>
-            <Link to = '#'><p>GigoStore</p></Link>            
+            <Link to = '/courses'><p>GigoSchool</p></Link>
+            <a href = 'https://store.gigoplanet.com' target='_blank'><p>GigoStore</p></a>            
           </div>
           <div className={style.foot_col}>
             <div className={style.title}>Community</div>
@@ -38,7 +38,7 @@ export default function Footer() {
           </div>
           <div className={style.foot_col}>
             <div className={style.title}>Contacts</div>
-            <p><span><GrLocation /></span> University of Nigeria, Nsukka. Enugu State, Nigeria.</p>
+            <p><span><GrLocation /></span> No 1 Emma Ezea Complex, Onuiyi Nsukka. Enugu State, Nigeria.</p>
             <p><span><FiPhoneCall /></span> +234 8032744865</p>
             <p><span><HiOutlineMail /></span> info@gigoplanet.com</p>
           </div>

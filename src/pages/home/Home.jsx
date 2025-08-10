@@ -9,6 +9,7 @@ import 'aos/dist/aos.css';
 import { BsCaretRightFill } from "react-icons/bs";
 import Navbar from '../../components/navbar/Navbar'
 import Footer from '../../components/footer/Footer'
+import OurProducts from '../../components/ourProducts/OurProducts';
 
 export default function Home() {
   useEffect(() => {
@@ -37,6 +38,7 @@ export default function Home() {
             <img src="./images/img1.png" alt="" />
           </div>
         </main>
+        <OurProducts/>
         <Footer />
     </div>
   )

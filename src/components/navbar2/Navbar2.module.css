@@ -10,25 +10,25 @@
     color: var(--text-red);
 }
 
-header{
+.navbar2_header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 6rem;
-    background-color: var(--text-blue);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: #110f32;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 .brand{
     display: flex;
     align-items: center;
-    gap: 0.5rem;   
+    gap: 0.5rem;  
 }
-.brand img{
-    width: 40px;
+.brand > span{
+    font-size: 50px;
 }
 .brand p{
     font-size: 20px;
-    color: var(--text-white);
+    color: var(--text-light);
     font-weight: 900;
     letter-spacing: 0.1rem;
 }
@@ -38,7 +38,7 @@ header{
 .menu_icon{
     display: none;
 }
-header .navs{
+.navbar2_header .navs{
     display: flex;
     gap: 2rem;
     align-items: center;
@@ -46,7 +46,7 @@ header .navs{
 .navs a{
     font-size: 20px;        
     text-decoration: none;
-    color: var(--text-light);
+    color: #d4d2d2;
     font-weight: 400;
 }
 .navs a:hover{    
@@ -55,7 +55,7 @@ header .navs{
 }
 
 @media(max-width:667px){
-    header{
+    .navbar2_header{
         align-items: center;
         padding: 1rem;
     }
@@ -63,27 +63,27 @@ header .navs{
         display: block;
         position: absolute;
         right: 0rem;
-        top: 1rem;
+        top: 2rem;
         color: #fff;
         font-size: 60px;
         padding-bottom: 2rem;
     }
-    header .navs{
+    .navbar2_header .navs{
         display: none;
         flex-direction: column;
         position: absolute;
         padding: 4rem 0rem 6rem;
-        top: 3rem;
+        top: 4rem;
         right: 0;
         left: 0;
         bottom: 0;
         gap: 2rem;
         border-right: 1px solid;
         align-items: center;
-        background-color: var(--text-blue);
+        background-color: #110f32;
         z-index: 1;
     }
-    header .navs.active{
+    .navbar2_header .navs.active{
         display: flex;
     }
     .nav_item{
