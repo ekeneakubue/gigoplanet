@@ -34,11 +34,7 @@ export default function Navbar2(props) {
                 </div>
             </Link>
             <HiMenuAlt3 className={style.menu_icon} onClick={toggleNavbar}/>
-            <div className={`${style.navs} ${isOpen ? style.active : ''}`}>
-                <Link to = '/' onClick={toggleNavbar}>
-                    <div className={props.home_state ? style.active : style.notActive}>Home</div>
-                </Link>
-                
+            <div className={`${style.navs} ${isOpen ? style.active : ''}`}>               
                 <Link to = '/courses' >
                     <div className={props.home_state ? style.active : style.notActive}>
                         All Courses
@@ -50,10 +46,10 @@ export default function Navbar2(props) {
                         </ul>
                     </div>
                 </Link>
-                <Link to = '/courses' onClick={toggleNavbar}>
+                <Link to = '#' onClick={toggleNavbar}>
                     <div className={props.about_state? style.active : style.notActive}>About </div>
                 </Link>
-                <Link to = '/courses' onClick={toggleNavbar}>
+                <Link to = '#' onClick={toggleNavbar}>
                     <div className={props.product_state ? style.active : style.notActive}>Gallery</div>
                 </Link>                
             </div>

@@ -23,6 +23,13 @@
     font-size: 20px;
     font-weight: 800;
 }
+.course_title p{
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    width: 80%;
+    margin: 1rem auto;
+}
 .details h4{
     margin: 2rem 0 1rem;
 }
