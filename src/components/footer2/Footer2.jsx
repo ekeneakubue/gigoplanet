@@ -1,4 +1,4 @@
-import style from './footer2.module.css'
+import style from './Footer2.module.css'
 import { FaFacebook, FaWhatsapp } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { SiInstagram, SiGitconnected } from "react-icons/si";
