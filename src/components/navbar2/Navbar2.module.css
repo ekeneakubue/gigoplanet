@@ -54,6 +54,25 @@
     font-weight: 400;
 }
 
+.drop_items{
+    display: none;
+    position: absolute;
+    color: #c4c4c6;
+    top: 6rem;
+    right: 17rem;
+    background-color: #110f32;
+    z-index: 1;
+}
+.drop_items li{
+    padding: 1rem;
+    list-style: none;
+    text-align: center;
+    border-bottom: 1px solid #b6b3e9;
+}
+
+
+
+
 @media(max-width:667px){
     .navbar2_header{
         align-items: center;

@@ -6,10 +6,7 @@ import { SiInstagram, SiGitconnected } from "react-icons/si";
 export default function Footer2() {
   return (
     <div>
-        <div className={style.footer2_container}>
-            <div className={style.footer2_title}>
-                Get<span>Intouch!</span>
-            </div>
+        <div className={style.footer2_container}>           
             <div className={style.social_links}>                              
                 <a href="https://wa.me/+2348067359106" target="_blank" rel="noopener npreferrer">
                     <span className={style.whatsapp}>

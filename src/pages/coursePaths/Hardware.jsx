@@ -6,6 +6,7 @@ export default function Hardware() {
     <div>
         <Course 
             CourseTitle = 'Hardware Repairs & Maintenance'
+            price = '100k'
         />
     </div>
   )
