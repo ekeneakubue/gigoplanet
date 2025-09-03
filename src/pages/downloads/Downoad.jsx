@@ -37,6 +37,15 @@ export default function Download() {
                       <div className={style.card_btn}>DOWNLOAD</div>
                     </Link>
                   </div>
+                </div>  
+                <div className={style.card}>
+                  <img src="./images/vscode.jpg" alt="" />
+                  <div className={style.card_body}>
+                    <p>Visual Studio Code (VS Code) is a free, powerful, and lightweight source code editor created by Microsoft.</p>
+                    <Link to="/files/VSCodeSetup.exe" target="_blank" download>
+                      <div className={style.card_btn}>DOWNLOAD</div>
+                    </Link>
+                  </div>
                 </div>                
               </div>
             </section>
