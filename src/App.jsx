@@ -11,6 +11,7 @@ import Appreciation from './pages/coursePaths/Appreciation'
 import Office from './pages/coursePaths/Office'
 import Hardware from './pages/coursePaths/Hardware'
 import WebDev from './pages/coursePaths/WebDev'
+import Download from './pages/downloads/Downoad'
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path='/office' element = {<Office />} />
         <Route path='/hardware' element = {<Hardware />} />
         <Route path='/webdev' element = {<WebDev />} />
+        <Route path='/download' element = {<Download />} />
         <Route path='/gigostore' component={() => {
             window.location.href = 'https://ekeneakt.org.ng';
             return null;

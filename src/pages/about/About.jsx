@@ -15,9 +15,11 @@ export default function About() {
   return (
     <div>
         <Navbar about_state = 'active'/>
-        <main className={style.about_container} data-aos="fade-up" data-aos-duration="3000">
-            <img src="./images/img2.png" alt="" />
-            <div className={style.about}>
+        <main className={style.about_container} >
+            <div data-aos="fade-up" data-aos-duration="3000">
+              <img src="./images/img2.png" alt="" />
+            </div>            
+            <div className={style.about} data-aos="fade-up" data-aos-duration="3000">
               <div className={style.title}>About Us</div>
               <p>
                 We are a Multi-Competency, Enterprise Transformation & Technology Consulting Firm. 

@@ -26,6 +26,9 @@ export default function Navbar(props) {
                 <Link to = '/about' onClick={toggleNavbar}>
                     <div className={props.about_state? style.active : style.notActive}>About Us</div>
                 </Link>
+                <Link to = '/download' onClick={toggleNavbar}>
+                    <div className={props.download_state? style.active : style.notActive}>Downloads</div>
+                </Link>
                 <Link to = '/products' onClick={toggleNavbar}>
                     <div className={props.product_state ? style.active : style.notActive}>Products & Services</div>
                 </Link>                
