@@ -48,15 +48,14 @@ export default function OurProducts() {
                     <div className={style.s_card}>
                         <BsCart4 className={style.icon}/>
                         <div className={style.title}>
-                            <div>Gigo Store</div>
+                            <div>Village Market</div>
                         </div>
                         <hr/>
                         <div className={style.body}>
-                            Empowering your business to innovate, grow, and thrive. We maximize profitability, 
-                            scale your operations, and ensure peak application performance through smart, 
-                            strategic IT resource management.
+                            Pool resources, share together. 
+                            Building stronger communities one pool at a time.
                         </div>
-                        <a href='https://store.gigoplanet.com' target='_blank'>
+                        <a href='https://villagemarket.online' target='_blank'>
                             <div className={style.card_btn}><p>Read More</p><BsFillPlayFill /></div>
                         </a>
                     </div>
