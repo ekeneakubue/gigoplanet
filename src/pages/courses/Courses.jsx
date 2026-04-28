@@ -81,6 +81,78 @@ export default function Courses() {
               </div>
             </div>
           </div>
+
+          <br />
+          <br /><br /><br /><br />
+          {/* SAP Courses */}
+          <div className={style.pro_txt}>Professional Courses we offer (SAP)</div >
+          <div className={style.oem_container}>          
+            <div className={style.oem_card}> 
+              <img src="./images/hcm.jpg" alt="" />             
+              <div className={style.title}>
+                <div>SAP Human Capital Management</div>
+              </div>
+              <div className={style.body}>
+                This course is designed to provide learners with the knowledge and skills needed to manage human capital in a SAP system.
+
+                <Link to = '#'>
+                  <div className={style.oem_btn}>Course Details</div>
+                </Link>
+                
+              </div>
+            </div>
+
+            <div className={style.oem_card}> 
+              <img src="./images/mm.jpg" alt="" />             
+              <div className={style.title}>
+                <div>SAP Materials Management</div>
+              </div>
+              <div className={style.body}>
+                This course is designed to provide learners with the knowledge and skills needed to manage materials in a SAP system.
+
+                <Link to = '#'>
+                  <div className={style.oem_btn}>Course Details</div>
+                </Link>
+                
+              </div>
+            </div>
+
+            <div className={style.oem_card}> 
+              <img src="./images/crm.jpg" alt="" />             
+              <div className={style.title}>
+                <div>SAP Customer Relationship Management</div>
+              </div>
+              <div className={style.body}>
+                This course is designed to provide learners with the knowledge and skills needed to manage customer relationships in a SAP system.
+
+                <Link to = '#'>
+                  <div className={style.oem_btn}>Course Details</div>
+                </Link>
+                
+              </div>
+            </div>
+
+            <div className={style.oem_card}> 
+              <img src="./images/sd.jpg" alt="" />             
+              <div className={style.title}>
+                <div>SAP Sales and Distribution</div>
+              </div>
+              <div className={style.body}>
+                This course is designed to provide learners with the knowledge and skills needed to manage sales and distribution in a SAP system.
+
+                <Link to = '#'>
+                  <div className={style.oem_btn}>Course Details</div>
+                </Link>
+                
+              </div>
+            </div>
+
+           
+
+            
+
+            
+          </div>
         </div>
       </div> 
       <Footer2 />                                                                                                                                           
