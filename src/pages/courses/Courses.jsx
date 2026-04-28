@@ -93,7 +93,7 @@ export default function Courses() {
                 <div>SAP Human Capital Management</div>
               </div>
               <div className={style.body}>
-                This course is designed to provide learners with the knowledge and skills needed to manage human capital in a SAP system.
+                This course is designed to provide learners with the knowledge and skills needed to manage the employee lifecycle, including payroll and workforce planning.
 
                 <Link to = '#'>
                   <div className={style.oem_btn}>Course Details</div>
